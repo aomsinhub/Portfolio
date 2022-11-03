@@ -24,11 +24,11 @@ return (
                 interactivity: {
                     events: {
                         onClick: {
-                            enable: true,
+                            enable: false,
                             mode: "push",
                         },
                         onHover: {
-                            enable: true,
+                            enable: false,
                             mode: "repulse",
                         },
                         resize: true,
@@ -38,7 +38,7 @@ return (
                             quantity: 4,
                         },
                         repulse: {
-                            distance: 200,
+                            distance: 50,
                             duration: 0.4,
                         },
                     },
@@ -52,7 +52,7 @@ return (
                         distance: 150,
                         enable: true,
                         opacity: 0.5,
-                        width: 1,
+                        width: 2,
                     },
                     collisions: {
                         enable: true,
@@ -64,7 +64,7 @@ return (
                             default: "bounce",
                         },
                         random: false,
-                        speed: 6,
+                        speed: 4,
                         straight: false,
                     },
                     number: {

@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Home from './component/Home.js';
 import Works from './component/Works.js';
@@ -13,7 +12,7 @@ import { Routes, Route, Link} from 'react-router-dom';
 function App() {
   return (
     <div>
-      <ParticlesConfig/>
+      
       <Navbar/>
       <Routes>
         <Route path="/Profile" element={<Home/>}/>
