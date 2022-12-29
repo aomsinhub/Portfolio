@@ -1,6 +1,7 @@
 import React from 'react'
 import faceicon from "../pic/facebook_icon.png"
 import giticon from "../pic/github_icon.png"
+import youtubeicon from "../pic/youtube_icon.png"
 
 const Footer = ()=> {
   return (
@@ -14,6 +15,9 @@ const Footer = ()=> {
           </li>
           <li>
             <a href='https://github.com/aomsinhub' target='_blank'><img src={giticon} ></img></a>
+          </li>
+          <li>
+            <a href='https://www.youtube.com/channel/UCNHsXoe42htBSrtcPWi2Oig' target='_blank'><img src={youtubeicon} ></img></a>
           </li>
         </ul>
     </div>

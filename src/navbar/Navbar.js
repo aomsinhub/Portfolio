@@ -2,7 +2,7 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-    <div>
+    <div className='Navbar'>
       <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
         <div class="container-fluid">
           <a class="navbar-brand" href="Profile">
@@ -13,10 +13,10 @@ const Navbar = () => {
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-              <a class="nav-link" href="Profile">Profile</a>
-              <a class="nav-link" href="Works">Works</a>
-              <a class="nav-link" href="Certificates">Certificates</a>
-              <a class="nav-link" href="Activities">Activities</a>
+              <a class="nav-link" href="/">Profile</a>
+              <a class="nav-link" href="/Works">Works</a>
+              <a class="nav-link" href="/Certificates">Certificates</a>
+              <a class="nav-link" href="/Activities">Activities</a>
             </div>
           </div>
         </div>

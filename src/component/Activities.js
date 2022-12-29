@@ -7,6 +7,7 @@ import actpig3 from "../pic/3_ac.png"
 import actpig4 from "../pic/4_ac.png"
 import actpig5 from "../pic/tobe_ac.jpg"
 import actpig6 from "../pic/6_ac.png"
+import actpig7 from "../pic/70th.jpg"
 
 const Activities = ()=> {
   useEffect (() => {
@@ -15,13 +16,25 @@ const Activities = ()=> {
   return (
     <div>
       <div className='grids'>
+        <div className='textheader-act'>
+          <h1>ACTIVITIES</h1>
+        </div>
         <div className='box'>
           <div className='act-imgset'>
             <div className='act-img1'><img src={actpig1} ></img></div>
           </div>
           <div className='act-text'>
-            <h1>การประเมินโรงเรียนพระราชทาน</h1>
+            <h1>การประเมินสถานศึกษาพระราชทาน</h1>
             <h3>เป็นตัวแทนกล่าวนำเสนอของกลุ่มสาระการเรียนรู้คณิตศาสตร์ ในกลุ่มสาระมีการจัดแสดง เครื่องชงกาแฟอัตโนมัติ ศิลปะการพับกระดาษจากรูปทรงเรขาคณิต</h3>
+          </div>
+        </div>
+        <div className='box'>
+          <div className='act-imgset'>
+            <div className='act-img4'><img src={actpig7} ></img></div>
+          </div>
+          <div className='act-text'>
+            <h1>ศิลปหัตถกรรมนักเรียนระดับเขตพื้นที่การศึกษา ครั้งที่ 70</h1>
+            <h3>เข้าร่วมการแข่งขันการเขียนโปรแกรมด้วยภาษาคอมพิวเตอร์ ได้รับรางวัลรองชนะเลิศอันดับหนึ่ง</h3>
           </div>
         </div>
         <div className='box' >

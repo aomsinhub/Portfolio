@@ -6,6 +6,7 @@ import Activities from './component/Activities.js';
 import Footer from './component/Footer.js';
 import Navbar from './navbar/Navbar';
 import ParticlesConfig from './component/ParticlesConfig';
+import Barchart from './component/charts/Barchart.js';
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Routes, Route, Link} from 'react-router-dom';
 
@@ -15,7 +16,7 @@ function App() {
     <div>
       <Navbar/>
       <Routes>
-        <Route path="/Profile" element={<Home/>}/>
+        <Route path="/" element={<Home/>}/>
         <Route path="/Works" element={<Works/>}/>
         <Route path="/Certificates" element={<Certificates/>}/>
         <Route path="/Activities" element={<Activities/>}/>
