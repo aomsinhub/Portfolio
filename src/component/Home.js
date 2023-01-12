@@ -72,7 +72,7 @@ const Home = ()=> {
       <div class="row">
         <div class="col-7">
           <div className="bg" >
-            <div className='gpax'><h1 class='test-weight-bold'>GPAX 5 Term</h1></div>
+            <div className='gpax'><h1 class='test-weight-bold'>TGAT & TPAT3</h1></div>
             <Barchart/>
           </div>
         </div>

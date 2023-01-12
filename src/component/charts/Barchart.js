@@ -1,27 +1,23 @@
 import React from 'react'
-import { ResponsiveContainer, BarChart, Bar, XAxis, YAxis, Legend } from 'recharts';
+import { ResponsiveContainer, BarChart, Bar, XAxis, YAxis, Legend, Tooltip } from 'recharts';
 
 
 const dataBar = [
     {
-      subject: 'Computer',
-      grade: 4.0,
+      subject: 'TGAT1',
+      Score: 53.333,
     },
     {
-      subject: 'Math',
-      grade: 4.0,
+      subject: 'TGAT2',
+      Score: 67.500,
     },
     {
-      subject: 'English',
-      grade: 4.0,
+      subject: 'TGAT3',
+      Score: 75.416,
     },
     {
-      subject: 'Science',
-      grade: 4.0,
-    },
-    {
-      subject: 'Thai',
-      grade: 4.0,
+      subject: 'TPAT3',
+      Score: 66.000,
     },
   ];
 const Barchart = () => {
@@ -30,9 +26,10 @@ const Barchart = () => {
         <ResponsiveContainer width="100%" height="100%" aspect={3}>
             <BarChart data={dataBar} width={650} height={500}>
                 <XAxis dataKey="subject"/>
-                <YAxis domain={[0,4]} />
+                <YAxis domain={[0,100]} />
+                <Tooltip />
                 <Legend />
-                <Bar dataKey="grade" fill='#1C7BEE '/>
+                <Bar dataKey="Score" fill='#1C7BEE '/>
             </BarChart>      
         </ResponsiveContainer>
     </div>

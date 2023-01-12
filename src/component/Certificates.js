@@ -13,6 +13,7 @@ import cer11 from "../cerpic/cer11.jpg"
 import cer12 from "../cerpic/cer12.jpg"
 import cer13 from "../cerpic/mathscore.jpg"
 import cer14 from "../cerpic/cer14.jpg"
+import cer16 from "../cerpic/cer16.jpg"
 
 const Certificates = ()=> {
   return (
@@ -53,22 +54,7 @@ const Certificates = ()=> {
               </div>
             </div>
           </div>
-          <div className='boxcer'>
-            <div className='cer-img'>
-              <img src={cer2} ></img>
-            </div>
-            <div className='cer-text'>
-              <div className='cer-textheader'>
-                <h1>CS CAMP13</h1>
-                <h1>ค่ายฝึกอบรมเชิงปฏิบัติการวิทยาการคอมพิวเตอร์</h1>
-                <h1>เรียนรู้พื้นฐานเกี่ยวกับ Micro bit และ<br />ลำดับการเขียนโปรแกรมอย่างมีขั้นตอน <br /><br />ในค่ายมีกิจกรรม Workshops นำเสนองานที่ได้จาก<br />การศึกษาในค่าย</h1>
-              </div>
-              <div className='cer-uni'>
-                <h3>คณะวิทยาศาสตร์ สาขาวิทยาการคอมพิวเตอร์</h3>
-                <h3>สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง</h3>
-              </div>
-            </div>
-          </div>
+          
           <div className='boxcer'>
             <div className='cer-img'>
               <img src={cer3} ></img>
@@ -174,6 +160,20 @@ const Certificates = ()=> {
             <div className='cer-textheader'>
               <h1>สถานศึกษาพระราชทาน</h1>
               <h1><br />เป็นตัวแทนกล่าวนำเสนอของกลุ่มสาระการเรียนรู้คณิตศาสตร์ ในกลุ่มสาระมีการจัดแสดง เครื่องชงกาแฟอัตโนมัติ ศิลปะการพับกระดาษจากรูปทรงเรขาคณิต</h1>
+            </div>
+            <div className='cer-uni'>
+              <h3><br />โรงเรียนธรรมศาสตร์คลองหลวงวิทยาคม</h3>
+            </div>
+          </div>
+        </div>
+        <div className='boxcer'>
+          <div className='cer-img'>
+            <img src={cer16} ></img>
+          </div>
+          <div className='cer-text'>
+            <div className='cer-textheader'>
+              <h1>กิจกรรมวิจิตรทางภาษาวิทยศาสตร์ก้าวหน้านำพาเทคโนโลยี</h1>
+              <h1><br />ได้รับรางวัลชนะเลิศการแข่งขันแนวคิดนวัตกรรม</h1>
             </div>
             <div className='cer-uni'>
               <h3><br />โรงเรียนธรรมศาสตร์คลองหลวงวิทยาคม</h3>

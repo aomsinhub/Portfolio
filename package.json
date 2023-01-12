@@ -16,6 +16,7 @@
     "recharts": "^2.1.16",
     "tsparticles": "^2.4.0",
     "typed.js": "^2.0.12",
+    "vercel": "^28.10.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
